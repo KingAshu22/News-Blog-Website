@@ -16,7 +16,7 @@ bannerImage.addEventListener("change", () => {
 const uploadImage = (uploadFile, uploadType) => {
     const [file] = uploadFile.files;
     if (file && file.type.includes("image")) {
-        const formdata = new formData();
+        const formdata = new FormData();
         formdata.append("image", file);
 
         fetch("/upload", {
