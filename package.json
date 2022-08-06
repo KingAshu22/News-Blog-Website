@@ -1,0 +1,16 @@
+{
+    "name": "mumbai-ka-sach",
+    "version": "1.0.0",
+    "description": "Mumbai ka Sach is a News Website.",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "Ashish Prasad",
+    "license": "ISC",
+    "dependencies": {
+        "express-fileupload": "^1.4.0",
+        "express.js": "^1.0.0",
+        "nodemon": "^2.0.19"
+    }
+}
